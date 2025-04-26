@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги за дома</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Навигация -->
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Услуги за Дома</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-blue-600">Начало</a>
+        <a href="#ac" class="hover:text-blue-600">Климатици</a>
+        <a href="#water" class="hover:text-blue-600">Водоснабдяване</a>
+        <a href="#contact" class="hover:text-blue-600">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Начало -->
+  <section id="home" class="text-center py-16 bg-blue-100">
+    <h2 class="text-4xl font-bold mb-4">Професионални решения за Вашия дом</h2>
+    <p class="text-lg">Инсталация и поддръжка на климатици. Водоснабдяване за къщи, апартаменти и комплекси.</p>
+  </section>
+
+  <!-- Климатици -->
+  <section id="ac" class="max-w-5xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-6">Климатици</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Инсталации</h3>
+        <p>Монтаж на нови климатици според нуждите на клиента. Бързо и качествено обслужване.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Поддръжка</h3>
+        <p>Редовна поддръжка и профилактика за оптимална работа и дълъг живот на уредите.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Водоснабдяване -->
+  <section id="water" class="bg-gray-100 py-16 px-4">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Водоснабдяване</h2>
+      <p class="mb-4">Предлагаме цялостни решения за водоснабдяване за:</p>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Къщи</li>
+        <li>Апартаменти</li>
+        <li>Жилищни и търговски комплекси</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Контакти -->
+  <section id="contact" class="py-16 px-4">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Свържете се с нас</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Име" class="w-full p-3 border rounded-xl">
+        <input type="email" placeholder="Имейл" class="w-full p-3 border rounded-xl">
+        <textarea placeholder="Вашето съобщение" rows="5" class="w-full p-3 border rounded-xl"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700">Изпрати</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 py-6">
+    &copy; 2025 Услуги за Дома. Всички права запазени.
+  </footer>
+</body>
+</html>
